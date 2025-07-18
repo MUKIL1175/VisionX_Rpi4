@@ -26,7 +26,7 @@ speech_queue = queue.Queue()
 # 🔐 Firebase setup
 cred = credentials.Certificate("firebase_key.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://raspberrypi-acd06-default-rtdb.firebaseio.com/'
+    'databaseURL': 'https://raspberryxx-acd06-default-rtdb.firebaseio.com/'
 })
 firebase_ref = db.reference('detections')
 
