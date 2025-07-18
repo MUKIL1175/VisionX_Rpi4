@@ -1,0 +1,7 @@
+torch==1.13.1+cpu  # You may need to install manually for RPi if Docker fails
+opencv-python-headless==4.7.0.72
+pandas==1.5.3
+edge-tts==0.14.0
+playsound==1.3.0
+firebase-admin==6.2.0
+numpy
